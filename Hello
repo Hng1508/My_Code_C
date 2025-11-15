@@ -21,5 +21,5 @@ int main() {
     printf("Hiệu của hai số là: %20.2f\n", hieu);
 
     system("pause"); // hoặc getchar();
-    return 0;
+    return 0
 }
