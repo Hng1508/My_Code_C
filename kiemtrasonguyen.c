@@ -20,6 +20,6 @@ int main() {
             printf("%d la so nguyen to.\n", x);
         }
         else{
-            printf("%d không phải là số nguyên tố.", x);                        
+            printf("%d không phải là số nguyên tố.", x);                       
         }
 }
