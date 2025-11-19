@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h
 #include <math.h>
 
 // kiểm tra số nguyên tố
@@ -74,5 +74,6 @@ int main() {
     return 0;
 
 }
+
 
 
