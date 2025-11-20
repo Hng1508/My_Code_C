@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h
 
 int main() {
     int x;
@@ -19,3 +19,4 @@ int main() {
 
     return 0;
 }
+
