@@ -1,4 +1,4 @@
-#include <stdio.h>>>>>>>>>>>>
+#include <stdio.h>>>>>>>>>>>
 #include <math.h>
 
 // 1. Nhập vào một số nguyên từ bàn phím (sử dụng con trỏ để lưu giá trị)
