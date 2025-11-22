@@ -23,7 +23,6 @@ int laSoNguyen(float x) {
 // 4. Trả về 1 nếu x là số chính phương, ngược lại 0
 int laSoCP(float x) {
     if (x < 0 || x != (int)x) return 0;   // không âm + phải nguyên
-
     int k = sqrt((int)x);    // Sử dụng hàm sqrt từ thư viện math.h
     if (k * k == (int)x)
         return 1;
@@ -31,7 +30,7 @@ int laSoCP(float x) {
 }
 
 // 5. Trả về 1 nếu x là số nguyên tố, ngược lại 0
-int laSoNT(float x) {
+int laSoNT(float x) {  
     if (x != (int)x || x < 2) return 0;   // phải là số nguyên >= 2
 
     int n = (int)x;
@@ -42,19 +41,17 @@ int laSoNT(float x) {
     return 1;
 }
 
+// Chương trình kiểm tra kết quả
 int main() {
     int n;
     float x;
-
     // Test từng hàm
     nhapSoNguyen(&n);
     nhapSoThapPhan(&x);
-
     printf("\n--- KET QUA KIEM TRA ---\n");
-
     printf("%.2f %s so nguyen\n", x, laSoNguyen(x) ? "la" : "khong la");
     printf("%d %s so chinh phuong\n", n, laSoCP(n) ? "la" : "khong la");
     printf("%d %s so nguyen to\n", n, laSoNT(n) ? "la" : "khong la");
 
-    return 0;
+    return 0; 
 }
