@@ -1,4 +1,4 @@
-#include <stdio.h>>>>>>>>>>>>>
+#include <stdio.h>>>>>>>>>>>>
 #include <math.h>  // dùng cho hàm sqrt()
 
 // Bảng MENU
@@ -227,6 +227,7 @@ int main() { // Hàm chính
 
     return 0;
 }
+
 
 
 
